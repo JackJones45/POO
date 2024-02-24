@@ -1,0 +1,22 @@
+¿Qué es la programación orientada a objetos (POO)?
+Es un paradigma de programacion en la cual podemos encontrar una mejor forma de solucionar un problema 
+que se nos presenta en la vida real. 
+Es una forma de programar que nos permite realizar codigo de una mejor manera, más entendible, reutilizable,
+modular y más facil de mantener.
+
+1 ¿Qué son las clases y los objetos?
+Las clases son las "recetas" (pasos) que tenemos que seguir para construir un objeto; estás tienen las 
+estructuras que todo objeto que se instancia(crean) a partir de ellas van de tener.
+Un objeto (instancia de una clase) es el resultados de realizar la "receta".
+-Los objetos son instancias de clases, la cuales poseen las propiedades (atributos)
+y acciones (métodos) especificadas en la clase.
+
+2 ¿Qué son los atributos y los métodos?
+-Los atributos son las características que los objetos, como lo puede ser el color de pelo 
+de los humanos, si un carro es rápido, etc. es lo que carateriza un objeto.
+-Los métodos son funciones que representan las acciones que realizan los objetos, por ejemplo, 
+un humano puede correr, hablar, etc.
+
+3 ¿Herencia?
+Permite a la clase hija acceder a todos los métodos y obtener las características de la 
+clase padre.
