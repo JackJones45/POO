@@ -17,6 +17,48 @@ de los humanos, si un carro es rápido, etc. es lo que carateriza un objeto.
 -Los métodos son funciones que representan las acciones que realizan los objetos, por ejemplo, 
 un humano puede correr, hablar, etc.
 
-3 ¿Herencia?
+3 ¿Qué es una herencia?
 Permite a la clase hija acceder a todos los métodos y obtener las características de la 
-clase padre.
+clase padre. Es una herencias de propiedades y métodos. 
+Importante saber el uso de super(). Super siempre accede a la clase padre.
+
+La herencia simple es cuando una clase solamente hereda la informacion de una clase, solo tiene una clase 
+padre. La clase que hereda la información de la clase padre ahora posee las características de su clase más 
+las características de la clase padre.
+
+4 ¿Qué es una herencia multiple?
+La herencia multiple se define como una clase que tiene 2 o más clases padres, esto nos obliga a trabajar
+esta herencia de forma algo diferente. Para traer los atributos de cada clase padre tenemos que hacer 
+referencia explicita a la clase padre.
+La palabra reservada super aplica solo para los metodos que tienen las clases padres, para los atributos usamos el self
+
+5 ¿Qué es el MRO (Method resolution order)?
+Es el orden en el que python busca metodos y atributos en las clases. Es muy importante al trabajar con 
+herencias ya que las clases pueden ser cadenas largas de herencias y tenemos que entender como funciona, qué 
+se ejecuta primero, que tiene prioridad y qué no.
+
+Explicado en el MRO.py
+(hereda desde la parte inferior por ramas hasta el final de la rama y luego pasa a las siguientes...)
+
+6 ¿Qué es el polimorfismo?
+EL polimorfismo es un concepto que hace referencia a enviar un mismo mensaje a diferentes objetos pero el
+resultado que se genera es distinto. Es decir, si yo le paso un mismo método a un objeto, la respuesta que
+voy a obtener es diferente. Si el metodo es hacer un sonido, un perro va a ladrar, un gato va a maullar, etc.
+
+Hay polimorfismo de función, de parametro, de herencia o subclases, polimorfismo de inclusion, de sobrecarga,
+de cohesion, etc. Pero el concepto es el mismo.
+
+Es muy importante saber que el polimorfismo cambia demasiado dependiendo del lenguaje que estemos trabajando,
+si es estatico (polimorfismo de inclusion) o dinamico.
+
+MISMA FUNCION, DIFERENTE TIPO DE DATO, TENEMOS UN RESULTADO
+
+INVESTIGAR SOBRE: Duck typing, enlaces dinamicos y enlaces estaticos, tipo real y tipo declarado.
+
+7 ¿Qué es encampsulamiento?
+No existe como tal en python pero es muy importante saberlo.
+El encampsulamiento consiste en proteger los elementos de una clase, atributos, metodos, variables,etc. 
+Si creemos que el desarrollador no deberia acceder a cierta propiedad (que sea privada), lo encapsulamos 
+para que no se pueda acceder a el.
+Tenemos estos niveles: (Publico, protegido y privado - Otros lenguajes) o 
+(publico, privado y muy privado - Python). Depende del lenguaje.
